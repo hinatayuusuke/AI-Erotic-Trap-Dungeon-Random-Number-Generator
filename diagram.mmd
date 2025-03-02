@@ -1,0 +1,9 @@
+graph LR
+    A[Start] --> B{Generate Random Numbers};
+    B --> C{Format Output String};
+    C --> D{Display Output};
+    D --> E{Copy to Clipboard Button};
+    E -- Click --> F{Copy Output to Clipboard};
+    F --> G[End];
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#ccf,stroke:#333,stroke-width:2px
